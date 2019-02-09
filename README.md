@@ -15,9 +15,9 @@
 ### 2019.02.09 Day04 - Day05
  * Android 익히기 - Project 생성
  
-  > 화면 = Activity, code editer -> class generate 기능 (코드 자동생성)
+    화면 = Activity, code editer -> class generate 기능 (코드 자동생성)
  
-  > xml code를 parsing -> design tab에 표현
+    xml code를 parsing -> design tab에 표현
  
  * View 속성
  
