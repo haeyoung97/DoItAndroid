@@ -59,7 +59,7 @@
    
    5) TableLayout = 격자 모양의 배열형식으로 화면을 구성 ( ex. 갤러리 )
   
-  * 1) ContrainLayout
+  > * 1) ContrainLayout
      
      * View끼리 연결 or View & Line 연결 (위치를 구성) - Bias 존재
      
@@ -71,7 +71,7 @@
      
      * 추가 설정 = ex. Background, Textsize, TextColor, etc.
   
-  * 2) LinearLayout
+  > * 2) LinearLayout
      
      * Horizontal & Vertical 설정은 필수 (여유 공간이 있어야 정렬 가능 - Gravity)
 ***
