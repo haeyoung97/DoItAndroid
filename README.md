@@ -74,4 +74,17 @@
      
      * Horizontal & Vertical 설정은 필수 (여유 공간이 있어야 정렬 가능 - Gravity)
 ***
-
+### 2019.02.11 Day09 - Day10
+  > 3) RelativeLayout
+  
+     * 다른 View와의 상대적 위치를 이용
+     
+     * layout_below (어떤 view 밑에 위치하는가) & layout_above (어떤 view 위에 위치하는가)
+     
+  > 4) TableLayout
+  
+     * <TableRow> 태그 = Table의 한 행을 만들어낸다.
+     
+     * * ScrollView = 다른 뷰를 감싸주기만 해도 view의 크기가 넘어갔을 때 자동으로 생성
+     
+***
