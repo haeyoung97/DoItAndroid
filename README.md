@@ -105,7 +105,7 @@
   
     > xml file & java file = 두 개의 file로 하나의 화면을 구성 (하나의 Activity)
     
-    > * Inflation
+    > #### Inflation
     
        * xml file의 code를 실제화 해주는 것 (화면에 표현)
        
