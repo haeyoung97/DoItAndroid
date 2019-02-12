@@ -88,3 +88,27 @@
      * * ScrollView = 다른 뷰를 감싸주기만 해도 view의 크기가 넘어갔을 때 자동으로 생성
      
 ***
+### 2019.02.12 Day11 - Day13
+  > 5) FrameLayout
+  
+     * 중첩 Layout = 가시성 속성을 포함하고 있기 때문
+     
+     * image 추가 = res -> drawable 밑에 추가
+     
+     * imageView => Visible & Invisible
+     
+  * Widget (위젯)
+  
+    > textview & editText (hint 속성 - 설명 기능)
+    
+  * Application
+  
+    > xml file & java file = 두 개의 file로 하나의 화면을 구성 (하나의 Activity)
+    
+    > * Inflation
+    
+       * xml file의 code를 실제화 해주는 것 (화면에 표현)
+       
+       * setContentView(R.layout.activity_main); => 메모리 상에 객체화 하는 역할 (필수 과정)
+       
+       * 화면 추가 방법 : xml 화면을 구성 -> inflater로 구체화 -> 부분화면 띄우기
