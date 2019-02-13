@@ -112,3 +112,12 @@
        * setContentView(R.layout.activity_main); => 메모리 상에 객체화 하는 역할 (필수 과정)
        
        * 화면 추가 방법 : xml 화면을 구성 -> inflater로 구체화 -> 부분화면 띄우기
+***
+### 2019.02.13 Day14
+ > 화면 구성 & 화면 간 전환
+   * 화면 구성 요소 - 액티비티, 서비스, 브로드 캐스트 수신자 (SMS문자 등을 받을 수 있게), 내용 제공자
+   
+   * Activity를 직접 file 추가 -> manifest.xml에 <activity> 추가 해야한다.
+ 
+ > 화면 전환 시스템 = Intent를 사용
+***
