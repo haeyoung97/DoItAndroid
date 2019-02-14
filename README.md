@@ -121,3 +121,22 @@
  
  > 화면 전환 시스템 = Intent를 사용
 ***
+### 2019.02.14 Day15
+  > Intent
+  
+    * 명시적 & 암시적 Intent
+    
+  > 액티비티를 위한 플래그와 부가 데이터
+  
+    * Activity = stack 구조를 가지고 있다
+    
+    * flag를 Intent의 parameter로 지정하여 stack구조의 비효율성을 줄인다.
+    
+    * flag = Single_top, Clear_top, etc.
+    
+  > 부가 데이터 전달
+  
+    * putExtra & get...Extra (get은 자료의 형태가 필요하다)
+    
+    * Parcelable = 객체 자체를 전달하고자 할 때 사용
+***
