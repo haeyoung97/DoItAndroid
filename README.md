@@ -140,3 +140,18 @@
     
     * Parcelable = 객체 자체를 전달하고자 할 때 사용
 ***
+### 2019.02.16 Day16 - Day17
+  > 액티비티 수명주기 -> stack 속 실행 & 일시중지 & 중지
+  
+  > callback 메소드를 통해 액티비티 상태 전송
+  
+     * new Activity -> onCreate() 재정의
+     
+     * onStop, onStart, onResume, onPause, onDestroy
+     
+   > 서비스 - 화면이 없는 상태에서 백그라운드로 실행 ( onCreate() 호출 )
+   
+   > 브로드캐스트 수신자 - 일반 & 순서 브로드캐스트 (SMS문자를 받아서 처리하는 작업, etc.)
+   
+   > 위험 권한 부여 - 위치, 카메라, 마이크, 전화, 문자 등등
+***
