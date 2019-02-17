@@ -155,3 +155,18 @@
    
    > 위험 권한 부여 - 위치, 카메라, 마이크, 전화, 문자 등등
 ***
+### 2019.02.17 Day18
+  > UI = Widget & View (메뉴, 액션바, 프래그먼트, 웹, etc.) -> Event 처리
+  
+  > Event 처리 - TouchEvent, KeyEvent, 제스처, 포커스, 화면 방향 등
+  
+  > #### 단말 방향 전환
+  
+     * 1) Layout & Layout-land
+     
+       > 단말 방향 전환 시 데이터 처리 필요
+       
+     * 2) onConfigurationChanged() 메소드
+     
+       > 메소드 내의 flag를 통해 제어
+***
