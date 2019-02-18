@@ -170,3 +170,26 @@
      
        > 메소드 내의 flag를 통해 제어
 ***
+### 2019.02.18 Day19
+  > Toast & 대화상자
+  
+    * > Toast - 간단한 메세지 띄우기
+    
+      * setGravity() - 위치 바꾸기, LayoutInflater (메모리 객체화) -> 디자인 적용
+      
+    * > 액션바 & 스냅바 => 사용을 위해서 design 외부 라이브러리 추가
+    
+    * > 대화상자 - AlertDialog를 사용하여 띄우기
+    
+  > ProgressBar
+  
+    * Spinner design (진행상황 알림 시 사용 가능)
+    
+    * SeekBar design (슬라이더 바와 같은 디자인)
+    
+  > 간단한 애니메이션
+  
+    * 애니메이션은 대부분 트윈애니메이션으로 구현
+    
+    * 애니메이션을 구현하기 위해서 특정 디렉터리 필요 (xml file - <translate> 태그 사용)
+***
