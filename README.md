@@ -223,3 +223,32 @@
     
     * Keypad의 Input type 속성 (ex. number, password, etc.)
 ***
+### 2019.02.26 Day23
+  > #### 선택 위젯 & 커스텀뷰
+  
+  > NinePatch image
+  
+    * 이미지 왜곡을 해결하는 방법
+    
+    * ninePatch image가 따로 필요하다 -> 한 pixel이 큰 image = image의 정보 설정을 위한 도구
+    
+  > Bitmap Button
+  
+    * OnDraw() => 그래픽 그리기 (재정의 하여 사용한다)
+    
+    * OnMesure() => 내용물의 크기를 재정의 하여 그리기
+    
+    * 사용법
+    
+      > AppCompatButton을 상속하여 Java file 생성
+      
+      > OnTouchEvent() 함수를 이용하여 변화를 살펴보기
+      
+      > 이는 invalidate() 함수 ( = 다시그리기 ) 를 이용하여 버튼을 다시 그린다.
+  
+  > ListView - 여러 개의 Item = 선택 위젯
+  
+    * 어댑터로 데이터를 관리한다.
+    
+    * 어댑터로 View를 컨트롤 한다.
+***
