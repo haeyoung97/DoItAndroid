@@ -206,3 +206,20 @@
     
       * Activity = intent & Fragment = method
 ***
+### 2019.02.26 Day21 - Day22
+  > 액션바 & 탭 사용하기
+   
+    * 액션바 = title + button + toolbar 등의 기능을 가진다.
+     
+    * 옵션 메뉴 or 컨텍스트 메뉴
+     
+    * 사용법 = menu directory 생성 -> xml file 추가 -> 자동생성
+     
+  > 웹 브라우저 = WebView 태그 사용
+   
+  > EditText 속성
+   
+    * hint 속성 = 흐리게 글씨 보이기 (ex. 비밀번호 입력, 아이디 입력, etc.)
+    
+    * Keypad의 Input type 속성 (ex. number, password, etc.)
+***
