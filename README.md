@@ -252,3 +252,10 @@
     
     * 어댑터로 View를 컨트롤 한다.
 ***
+### 2019.03.10 Day24
+  > ListView 적용
+  
+     * 아이템을 위한 뷰 = xml file + java file
+     
+     * 어댑터를 정의해야한다 => getView()를 통해 화면에 보여질 ListView의 View를 구성한다.
+***
